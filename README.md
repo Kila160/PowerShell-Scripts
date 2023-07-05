@@ -4,7 +4,7 @@ Some are still in Portuguese (mostly only the comments on the code), feel free t
 
 As a sysadmin or help desk professional, you encounter a variety of challenges and tasks in your role. This repository is intended to serve as a resource to help you automate repetitive tasks, streamline processes, and enhance your productivity.
 
-### **Please note**
+### **- Please note -**
 These scripts are provided as generic examples and may require customization to fit your specific environment or requirements. Always review and understand the script before executing it in a production environment.
 
 ## Contributing
