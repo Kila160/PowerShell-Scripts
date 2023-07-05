@@ -1,0 +1,222 @@
+<!DOCTYPE HTML>
+<HTML><HEAD><TITLE>Template password Expire</TITLE>
+<META content=text/html;charset="UTF-8" http-equiv=Content-Type>
+
+<STYLE type=text/css>
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+ background-color: #FBFBFB;
+}
+
+a {
+ text-decoration: none;
+ color: #ED144B;
+}
+
+div.header {
+ text-align: left;
+ width: 100%;
+ clear: both;
+}
+
+div.messageblock {
+    width: 95%;
+    max-width: 95%;
+    margin-top: 20px;
+    clear: both;
+}
+
+div.messageeven div.header {
+ background-color: #DFDFDF;
+}
+
+div.messageodd div.header {
+ background-color: #EEEEEE;
+}
+
+div.msgspacer {
+ width: 30%;
+ float: left;
+}
+
+div.messageeven,
+div.messageodd {
+ border-top: 1px solid #DADADA;
+ padding: 3px;
+ text-align: left;
+}
+
+div.messageeven {
+ background-color: #DFDFDF;
+}
+
+div.messageodd {
+ background-color: #EEEEEE;
+}
+
+div.from,
+div.to,
+div.from-short,
+div.to-short {
+ color: black;
+ float: left;
+ font-size: 12px;
+ overflow: hidden;
+ white-space: nowrap;
+ text-overflow: ellipsis;
+}
+
+div.from,
+div.to {
+ width: 30%;
+}
+
+div.from-short {
+ width: 20%;
+}
+
+div.to-short {
+ width: 20%;
+ padding-left: 2px;
+}
+
+div.subject,
+div.subject-short {
+ color: #4A4A4A;
+ font-weight: bold;
+ width: 50%;
+ float: left;
+ font-size: 12px;
+ overflow: hidden;
+ white-space: nowrap;
+ text-overflow: ellipsis;
+ padding-left: 2px;
+}
+
+div.subject-short {
+ width: 40%;
+}
+
+span.short {
+ color: #777777;
+ font-size: 12px;
+ font-weight: normal;
+}
+
+div.date {
+ color: black;
+ text-align: right;
+ font-size: 11px;
+ min-width: 20%;
+ float: none;
+ clear: right;
+ overflow: hidden;
+ white-space: nowrap;
+ text-overflow: ellipsis;
+}
+
+div.msgspacer {
+ width: 30%;
+ float: left;
+}
+
+
+div.msgbody,
+div.msgbody-nowrap {
+ color: black;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 12px;
+ text-align: left;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ width: 70%;
+}
+
+div.msgbody-nowrap {
+ white-space: nowrap;
+}
+
+span.release {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 10px;
+}
+
+div.title {
+	width: 95%;
+	max-width: 95%;
+}
+
+div.subtitle {
+	width: 100%;
+	text-align: left;
+}
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: black;
+	text-align: left;
+}
+
+h2 {
+	text-align: left;
+}
+
+div.for {
+	color: black;
+	width: 70%;
+	float: left;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+div.sentdate {
+	color: black;
+	text-align: right;
+	min-width: 20%;
+	float: right;
+	clear: right;
+	overflow: hidden;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+div.introduction {
+	width: 95%;
+	max-width: 95%;
+	text-align: left;
+	clear: both;
+	margin-top: 7px;
+}
+
+div.footer {
+	width: 95%;
+	max-width: 95%;
+	text-align: left;
+	clear: both;
+	float: none;
+}
+</STYLE>
+</HEAD>
+<BODY>
+<CENTER><BR><IMG alt=logo 
+src="LOGO SOURCE HERE">
+<BR><BR>
+<CENTER>
+<DIV class=title>
+<H1><SPAN class=foldername>[ DSI ] -</SPAN> Alerta password de login quase a expirar</H1>
+<HR color=#cccccc SIZE=1 noShade>
+<DIV class=subtitle>
+<DIV class=sentdate><p><b>Data/Hora: </b> #DataeHora#<span id="datetime"></span></p>
+</DIV></DIV></DIV></CENTER>
+<CENTER>
+<DIV class=introduction>
+<P>Este e-mail foi enviado de forma automatica. A password de login do utilizador <b>"#colaboradornome#"</b> ira expirar em <b>#days#</b> dia(s) a <b>#warning#</b> , devera de alterar a 
+mesma o quanto antes. Por favor entre em contacto com a DSI caso necessite de ajuda com a alteracao da mesma.</P> 
+</DIV></CENTER>
+<CENTER>
+<DIV class=messageblock>
+<P><P><br><b>NAO RESPONDA A ESTE EMAIL.</P><br> Cumprimentos, DSI </b></P></DIV></CENTER>&nbsp; </CENTER>
+</BODY></HTML>
